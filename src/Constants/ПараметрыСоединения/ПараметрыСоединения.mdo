@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="891f6f9f-cf57-4c0e-9cf4-68d110604670">
+  <producedTypes>
+    <managerType typeId="a0ba6662-9b6e-48b4-8251-86d549cf505c" valueTypeId="be008926-fe27-49a8-9a48-98121450bc58"/>
+    <valueManagerType typeId="31691d3e-fb28-4831-a372-064233189b96" valueTypeId="746b0bc2-3f98-4941-95e5-c706a2d4b201"/>
+    <valueKeyType typeId="89943511-1871-4a8b-9fba-bf631ed497da" valueTypeId="988feb11-c6e9-47c2-b9fc-63a7be989286"/>
+  </producedTypes>
+  <name>ПараметрыСоединения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры соединения</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаПараметрыСоединения</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

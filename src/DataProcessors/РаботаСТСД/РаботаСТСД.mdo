@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ac6007e-97c4-4c75-90ed-24eed708ef83">
+  <producedTypes>
+    <objectType typeId="3f63fa75-3dcb-4b44-a8c5-96d83ad765c2" valueTypeId="00ad77f9-63c1-4630-90fb-c4f2124eb066"/>
+    <managerType typeId="f5543b83-9939-4800-b761-dd676f5dbde2" valueTypeId="483f5a2d-54c0-4e8c-9e36-5b985f4f3389"/>
+  </producedTypes>
+  <name>РаботаСТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с ТСД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСТСД.Form.ФормаСтарт</defaultForm>
+  <forms uuid="9740352f-8b72-49ee-a47c-8de2dac186ac">
+    <name>ФормаСтарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма старт</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1b525a7-837d-4699-ba17-7fe331979f3a">
+    <name>ФормаОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма остатки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2792f447-2119-415b-988e-dbe3e1b3e514">
+    <name>ФормаРазмещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма размещение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4a633411-662a-48d0-9c1c-15d665084bbb">
+    <name>ФормаПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма перемещение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

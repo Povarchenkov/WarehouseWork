@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe81406-d31a-447f-9b10-9d9ece08c88b">
+  <name>ComponentBroadcasts</name>
+  <synonym>
+    <key>ru</key>
+    <value>Component broadcasts</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

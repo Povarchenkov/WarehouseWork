@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="856f58b1-96df-482d-a897-5354a543c31b">
+  <producedTypes>
+    <selectionType typeId="ff825376-4f42-49ef-9aee-849f6ae03294" valueTypeId="2d3f1108-f080-430b-bce0-bb20766aa622"/>
+    <listType typeId="8aa6c55d-3db5-494c-9ca8-f65c418021fa" valueTypeId="0553eb94-0c79-4c54-a7f6-36a507d811b6"/>
+    <managerType typeId="7cabe569-4d8b-44f7-a473-33b1700ab3de" valueTypeId="9df283c5-e028-43fb-a525-b1fb4ad9a77a"/>
+    <recordSetType typeId="c5e9a284-276b-4a9f-b5d6-ff3c1a89c8d7" valueTypeId="a0b5ccd8-1b7e-47e4-9c59-3220491d2227"/>
+    <recordKeyType typeId="ac10b584-2cb8-4564-8765-41ea0bad8d52" valueTypeId="d75215bc-9f7a-478c-a9be-6ff5b1e5a2c7"/>
+    <recordType typeId="d0cea9c0-9680-4c4f-bf75-bcadf71e8118" valueTypeId="aa6a9a5f-03b1-407a-9f1c-29dc517a901b"/>
+    <recordManagerType typeId="b487e1a9-296b-4f3b-a5cc-bd0875d58410" valueTypeId="579b9a57-4e45-4dbf-b538-d67b2c0a0328"/>
+  </producedTypes>
+  <name>ШтрихкодыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3f9a5cc7-7594-4218-bea1-4a9710f72424">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="14d9b9b1-d800-4ccb-9ba9-a72585a8004e">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Упаковки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="09eb7320-d9a7-4f11-97d0-86c97660035c">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

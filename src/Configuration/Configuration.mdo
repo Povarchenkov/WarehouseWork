@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ba34a0f-534d-4e86-b9c3-bd82a0db0957">
+  <name>РаботаСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа склада</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7eff754d-801b-488e-91c3-4a852e92eb7c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2a2d019a-c08d-4816-a6af-32dc6cd4f3c9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3fb54f07-c7c9-44f5-b7ed-e454d32d83e2"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0774b775-bc85-431e-8e23-cf88697cce70"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b3862b01-075f-4976-b2a1-438e2033a90b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e00536dc-9ba2-408f-8e26-d344241566a0"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="44e668c4-6f18-4782-b86b-59579c44da30"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>dogeat</vendor>
+  <version>1.1.1</version>
+  <requiredMobileApplicationPermissions>
+    <permission>PushNotification</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>LocalNotification</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>InstallPackages</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="544b29c1-9a88-4bcd-84e0-d9a79602bdf7">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Склад</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <commonTemplates>CommonTemplate.ComponentBroadcasts</commonTemplates>
+  <commonModules>CommonModule.ОбменДаннымиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбменДаннымиСервер</commonModules>
+  <commonModules>CommonModule.РаботаСКомпонентойКлиент</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.Штрихкодирование</commonModules>
+  <exchangePlans>ExchangePlan.HTTPОбменСРабочейБазой</exchangePlans>
+  <commonCommands>CommonCommand.ВыполнитьСинхронизацию</commonCommands>
+  <constants>Constant.ПараметрыСоединения</constants>
+  <constants>Constant.ОсновнойСклад</constants>
+  <commonForms>CommonForm.ФормаПараметрыСоединения</commonForms>
+  <commonForms>CommonForm.ФормаАвторизации</commonForms>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.Ячейки</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ОтборРазмещение</documents>
+  <enums>Enum.ТипыСкладскихЯчеек</enums>
+  <enums>Enum.ВидыОперацийОтбораРазмещенияТоваров</enums>
+  <enums>Enum.СтатусыОтборовРазмещенийТоваров</enums>
+  <dataProcessors>DataProcessor.РаботаСТСД</dataProcessors>
+  <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.Сканирования</informationRegisters>
+</mdclass:Configuration>

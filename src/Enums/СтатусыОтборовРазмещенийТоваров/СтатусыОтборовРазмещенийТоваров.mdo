@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="416d8804-2c52-4e76-9cf0-8d7cef76747f">
+  <producedTypes>
+    <refType typeId="f230e20f-8bae-4762-aeb5-746853e9beee" valueTypeId="e1ff1c08-c2b1-475a-8da5-d1c9962be97a"/>
+    <listType typeId="cfe395c1-c5c0-4625-8913-cd1cf8de3b33" valueTypeId="a135bb31-9755-4a81-9de4-15752bdc5c48"/>
+    <managerType typeId="c2b6e36f-cacc-4736-a664-7b29f3c7cc73" valueTypeId="10c5c862-fd06-4663-a021-b60fea630e4a"/>
+  </producedTypes>
+  <name>СтатусыОтборовРазмещенийТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы отборов размещений товаров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1d5c1c1-9404-4d9a-823c-394584ac085e">
+    <name>Подготовлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="949379b3-0e90-43a4-95f5-bfb06b9528d9">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f13262d3-a1b2-4704-9ed9-7585e28774c3">
+    <name>СФ_Размещается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c12a9761-77f2-4b87-9e23-26fd0e9393ff">
+    <name>ВыполненоБезОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено без ошибок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb0a1f14-3896-41fa-bc95-9864dfa05538">
+    <name>ВыполненоСОшибками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено с ошибками</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

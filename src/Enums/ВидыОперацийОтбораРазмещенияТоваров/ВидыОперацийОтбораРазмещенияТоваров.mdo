@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e5e026f-2ec4-4f9e-a917-46d8253d2f2b">
+  <producedTypes>
+    <refType typeId="727ad1af-8046-4b2c-af09-35dc79217692" valueTypeId="a65e11aa-59b7-4f9e-ba6e-a126b35c4e6d"/>
+    <listType typeId="710c2479-7e8d-4d30-bfe8-68c40e1bd18a" valueTypeId="05360365-9361-4e40-8b05-3062b497062e"/>
+    <managerType typeId="335e2570-6e6f-4954-b72a-5fec96d6dec9" valueTypeId="cb8b8c33-4dd0-470d-a94c-940ba108fb62"/>
+  </producedTypes>
+  <name>ВидыОперацийОтбораРазмещенияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций отбора размещения товаров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3d63be41-0377-452a-a0cf-ef17d8bfb8a9">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3a2273c-c952-42e9-9348-57aa6ffaf94f">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b34134c8-8c5e-4a69-99b5-8dc7b68d86e5">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

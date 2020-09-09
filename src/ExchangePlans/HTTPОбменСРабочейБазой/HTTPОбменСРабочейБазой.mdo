@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3534842a-d20d-43a9-a8d1-9e93fa237fc8" thisNode="61627d69-90cd-4290-82b7-06b182e6ac87">
+  <producedTypes>
+    <objectType typeId="2007e942-c0ba-4c30-b636-e771898ffdfd" valueTypeId="0fa839dc-d842-411f-a14a-9aefb91e55a5"/>
+    <refType typeId="e6f55d0f-2559-48bf-9571-cf3dc7208024" valueTypeId="26e87c10-77fa-497f-abd8-adeb3ec06988"/>
+    <selectionType typeId="010d40fd-e83b-4c56-b45d-31d989fdcbc8" valueTypeId="7a57af85-b5d8-45c0-bfb2-01bb5e58cf62"/>
+    <listType typeId="506085f8-c25e-4596-9e90-7b06f31d968f" valueTypeId="c42e268b-602e-4b1c-b09c-7c46ed0fd070"/>
+    <managerType typeId="f4ace3f3-18cb-492d-ac0b-00a7d4708f3c" valueTypeId="5289b15b-f333-41ab-b878-59382b239c25"/>
+  </producedTypes>
+  <name>HTTPОбменСРабочейБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP обмен с рабочей базой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.HTTPОбменСРабочейБазой.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.HTTPОбменСРабочейБазой.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.ОтборРазмещение</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

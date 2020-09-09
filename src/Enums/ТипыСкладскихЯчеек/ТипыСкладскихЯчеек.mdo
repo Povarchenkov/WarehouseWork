@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a02ee346-aa4b-4892-9c42-64ed3682b955">
+  <producedTypes>
+    <refType typeId="62ee0706-1605-46cf-abde-80123eda079b" valueTypeId="6c59c296-9241-4a1c-bb99-92c8ad17d6e4"/>
+    <listType typeId="d1df0339-4866-4231-9984-f08aa9fe5c40" valueTypeId="fa6bf7f0-7295-4b7b-8886-fef77d9e15fc"/>
+    <managerType typeId="e22ea468-d837-499d-b468-7c14d4a2e378" valueTypeId="efd242cc-ea71-453c-b542-614bc2bd0179"/>
+  </producedTypes>
+  <name>ТипыСкладскихЯчеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы складских ячеек</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="14598cfe-09a0-48b7-b6a1-4f1e42eb5f05">
+    <name>Приемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e30f8868-9d7e-4977-b48e-678c260c72de">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44a6a729-9316-4065-809a-cede342107b2">
+    <name>Хранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72b36666-7be2-48fa-9302-07752460cce4">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e84fd23-d894-4bbf-a365-c123831c04f4">
+    <name>Курьер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa3c1884-5447-43a9-887b-21727aed9652">
+    <name>УпаковочныйСтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковочный стол</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

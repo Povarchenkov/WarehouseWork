@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="936e893e-eba8-42cd-8db9-c34928ea527c">
+  <producedTypes>
+    <objectType typeId="35d083f5-3f38-42fc-991d-4eeeb666ae11" valueTypeId="ac3db23c-7495-47a9-935a-ee33149157b0"/>
+    <refType typeId="4d8e22b3-27d6-408c-a5aa-665659a5bb1a" valueTypeId="ce0dc86d-44bf-4823-94d3-30ec76c244df"/>
+    <selectionType typeId="d88fb190-b6fb-49a1-9263-fdf1db23eed0" valueTypeId="be1a1dc1-d322-4eb3-a152-8b99b964e3ab"/>
+    <listType typeId="2ad0c93e-af22-4b10-90f7-a1cfed211371" valueTypeId="ef287736-a697-4245-9e08-d693373fc805"/>
+    <managerType typeId="642785e5-0614-4ca7-831b-5bc83450fa9b" valueTypeId="294fdbac-8f5f-42e4-99f6-2236723120f0"/>
+  </producedTypes>
+  <name>Ячейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ячейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ячейки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ячейки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Склады</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e160237a-469b-4701-9252-466b7309043d">
+    <name>ТипСкладскойЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип складской ячейки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСкладскихЯчеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f68594fd-26b3-46cd-ae62-8e505d633a3f">
+    <name>ЯчейкаСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка сортировки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

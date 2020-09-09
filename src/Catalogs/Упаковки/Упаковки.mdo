@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faa71e13-32a4-429d-9159-702ad9fff138">
+  <producedTypes>
+    <objectType typeId="143116ce-cf1e-495f-8348-de6306f874ef" valueTypeId="bb6c7c6c-7a1d-4e30-ab12-9c642a94ab82"/>
+    <refType typeId="368f02ef-8e0d-4649-99ec-4d728e8c9332" valueTypeId="d7a5be8d-d588-4fce-b39f-16a67c11f587"/>
+    <selectionType typeId="44d4f184-75cc-464a-855a-895f920288d3" valueTypeId="ab27ac3f-32ce-42b7-add7-c190dbb22158"/>
+    <listType typeId="4ffd5c4a-551e-42ef-af42-85085f8a19c9" valueTypeId="19429b7d-1d3f-4e13-a7d2-22befcf22af0"/>
+    <managerType typeId="c83cc1a1-b3da-4167-8146-260f9c7bab6b" valueTypeId="52ea0dae-a294-4577-8181-c94746371f64"/>
+  </producedTypes>
+  <name>Упаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="187ffd2d-d645-49be-8e61-f8eb57d0c6c4">
+    <name>Числитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Числитель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ef777b3-f4d9-4d5c-94ee-55c3a226ea6e">
+    <name>Знаменатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Знаменатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

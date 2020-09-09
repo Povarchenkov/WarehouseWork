@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="064d9c90-8a4a-43b4-8826-8a9a83fa9d57">
+  <producedTypes>
+    <selectionType typeId="18599f64-e1cc-40a6-bd05-4214497028d3" valueTypeId="95553274-1ab8-4d9d-a25b-77bbc5f8679a"/>
+    <listType typeId="5039f704-6f42-4fde-9ca0-d0a30142a74a" valueTypeId="37e45271-950b-4c68-b3f1-de3469356f79"/>
+    <managerType typeId="add13e88-eb1f-41e9-80d8-c36b3487d7d8" valueTypeId="561dc801-1b78-416d-864f-79b91d4d42a7"/>
+    <recordSetType typeId="ceca7e88-4c2d-4c82-8f03-d0f04d8c9893" valueTypeId="e028ec19-8a0e-4d91-870d-b42cf3d62223"/>
+    <recordKeyType typeId="ded39ac1-55a2-401b-943c-eea9e3e6bde5" valueTypeId="80751ecd-b6a0-4525-926d-f31182d1e8b2"/>
+    <recordType typeId="b14a2e9e-4f6d-4beb-b8fc-8be0c12a5540" valueTypeId="a64a9dea-4da0-4b04-8fec-2eab03810c89"/>
+    <recordManagerType typeId="9cf18445-b3bd-42a1-ad16-4eaac4b38cdd" valueTypeId="730a678d-0fb2-4536-8742-c6b1dd24b5c0"/>
+  </producedTypes>
+  <name>Сканирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="23a3e0d7-8150-403d-ba98-902894223b65">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="596ad895-ee23-48a7-923e-c1632bed9a26">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

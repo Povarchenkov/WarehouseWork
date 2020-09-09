@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7379b5b-42aa-4dc6-8c16-81a0b36564bd">
+  <name>ФормаПараметрыСоединения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры соединения</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>
