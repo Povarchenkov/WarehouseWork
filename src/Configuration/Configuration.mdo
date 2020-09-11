@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>dogeat</vendor>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <requiredMobileApplicationPermissions>
     <permission>PushNotification</permission>
     <use>true</use>
