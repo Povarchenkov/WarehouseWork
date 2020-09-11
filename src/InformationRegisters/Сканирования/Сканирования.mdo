@@ -51,11 +51,32 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a2b279b-2a5b-4a0d-808c-6002d365f48f">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

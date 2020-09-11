@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>dogeat</vendor>
-  <version>1.1.2</version>
+  <version>1.1.1</version>
   <requiredMobileApplicationPermissions>
     <permission>PushNotification</permission>
     <use>true</use>
@@ -59,6 +59,7 @@
   <commonModules>CommonModule.Штрихкодирование</commonModules>
   <exchangePlans>ExchangePlan.HTTPОбменСРабочейБазой</exchangePlans>
   <commonCommands>CommonCommand.ВыполнитьСинхронизацию</commonCommands>
+  <commonCommands>CommonCommand.УдалитьСтарыеДанные</commonCommands>
   <constants>Constant.ПараметрыСоединения</constants>
   <constants>Constant.ОсновнойСклад</constants>
   <commonForms>CommonForm.ФормаПараметрыСоединения</commonForms>

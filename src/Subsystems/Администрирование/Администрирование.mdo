@@ -21,4 +21,5 @@
   <content>Catalog.Пользователи</content>
   <content>Constant.ОсновнойСклад</content>
   <content>InformationRegister.Сканирования</content>
+  <content>CommonCommand.УдалитьСтарыеДанные</content>
 </mdclass:Subsystem>
