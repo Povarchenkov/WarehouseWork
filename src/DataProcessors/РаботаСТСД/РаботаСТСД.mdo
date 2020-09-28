@@ -47,4 +47,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="c60b40b6-3288-4660-9b81-5217753e8fa8">
+    <name>ФормаРегистрацияТовараВЯчейках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма регистрация товара в ячейках</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
