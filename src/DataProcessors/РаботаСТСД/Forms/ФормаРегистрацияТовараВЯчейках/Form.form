@@ -664,12 +664,12 @@
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnClose</event>
+    <name>ПриЗакрытии</name>
   </handlers>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
