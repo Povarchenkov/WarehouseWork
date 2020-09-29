@@ -22,4 +22,5 @@
   <content>Constant.ОсновнойСклад</content>
   <content>InformationRegister.Сканирования</content>
   <content>CommonCommand.УдалитьСтарыеДанные</content>
+  <content>InformationRegister.РазмещениеНоменклатурыПоСкладскимЯчейкам</content>
 </mdclass:Subsystem>

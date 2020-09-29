@@ -56,4 +56,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="f52816a0-ec99-4870-8a8a-98c9a1d691ce">
+    <name>ФормаПроверкиТоваровВЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проверки товаров в ячейки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

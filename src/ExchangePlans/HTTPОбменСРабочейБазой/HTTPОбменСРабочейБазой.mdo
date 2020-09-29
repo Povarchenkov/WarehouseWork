@@ -22,6 +22,10 @@
   <codeLength>9</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.РазмещениеНоменклатурыПоСкладскимЯчейкам</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

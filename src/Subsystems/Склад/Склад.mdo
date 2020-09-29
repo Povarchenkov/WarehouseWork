@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonCommand.ВыполнитьСинхронизацию</content>
   <content>DataProcessor.РаботаСТСД</content>
+  <content>InformationRegister.РазмещениеНоменклатурыПоСкладскимЯчейкам</content>
 </mdclass:Subsystem>
