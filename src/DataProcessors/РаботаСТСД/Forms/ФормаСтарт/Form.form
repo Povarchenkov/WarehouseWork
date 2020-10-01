@@ -75,7 +75,7 @@
     <type>UsualButton</type>
     <commandName>Form.Command.Остатки</commandName>
     <autoMaxWidth>true</autoMaxWidth>
-    <height>3</height>
+    <height>2</height>
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
     <placementArea>UserCmds</placementArea>
@@ -140,7 +140,7 @@
     <commandName>Form.Command.Перемещение</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
-    <height>3</height>
+    <height>2</height>
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
     <placementArea>UserCmds</placementArea>
@@ -173,7 +173,7 @@
     <commandName>Form.Command.РегистрацияТовараВЯчейках</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
-    <height>3</height>
+    <height>2</height>
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
     <placementArea>UserCmds</placementArea>
@@ -290,23 +290,23 @@
     <commandName>Form.Command.ПроверкаТоваровВЯчейках</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
-    <height>3</height>
+    <height>2</height>
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
     <placementArea>UserCmds</placementArea>
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:Button">
-    <name>ОбщаяКомандаВыполнитьСинхронизацию</name>
-    <id>15</id>
+    <name>УстановкаЯчеекаДляТовара</name>
+    <id>25</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ОбщаяКомандаВыполнитьСинхронизациюРасширеннаяПодсказка</name>
-      <id>16</id>
+      <name>УстановкаЯчеекаДляТовараРасширеннаяПодсказка</name>
+      <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -320,26 +320,91 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>CommonCommand.ВыполнитьСинхронизацию</commandName>
+    <commandName>Form.Command.УстановкаЯчеекаДляТовара</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
-    <height>3</height>
+    <height>2</height>
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
     <placementArea>UserCmds</placementArea>
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
-  <items xsi:type="form:Button">
-    <name>ОбщаяКомандаУдалитьСтарыеДанные</name>
-    <id>17</id>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСервис</name>
+    <id>23</id>
+    <items xsi:type="form:Button">
+      <name>ОбщаяКомандаВыполнитьСинхронизацию</name>
+      <id>15</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОбщаяКомандаВыполнитьСинхронизациюРасширеннаяПодсказка</name>
+        <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>CommonCommand.ВыполнитьСинхронизацию</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ОбщаяКомандаУдалитьСтарыеДанные</name>
+      <id>17</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОбщаяКомандаУдалитьСтарыеДанныеРасширеннаяПодсказка</name>
+        <id>18</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>CommonCommand.УдалитьСтарыеДанные</commandName>
+      <representation>PictureAndText</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ОбщаяКомандаУдалитьСтарыеДанныеРасширеннаяПодсказка</name>
-      <id>18</id>
+      <name>ГруппаСервисРасширеннаяПодсказка</name>
+      <id>24</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -352,14 +417,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>CommonCommand.УдалитьСтарыеДанные</commandName>
-    <representation>PictureAndText</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <height>3</height>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -559,6 +624,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПроверкаТоваровВЯчейке</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УстановкаЯчеекаДляТовара</name>
+    <title>
+      <key>ru</key>
+      <value>Установка ячеека для товара</value>
+    </title>
+    <id>7</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УстановкаЯчеекаДляТовара</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

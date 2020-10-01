@@ -65,4 +65,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="d7c5684e-b6e1-434d-b39a-e297bc9549d4">
+    <name>ФормаУстановкиЯчейкиДляТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма установки ячейки для товара</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
