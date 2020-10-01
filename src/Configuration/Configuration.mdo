@@ -76,5 +76,4 @@
   <dataProcessors>DataProcessor.РаботаСТСД</dataProcessors>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Сканирования</informationRegisters>
-  <informationRegisters>InformationRegister.РазмещениеНоменклатурыПоСкладскимЯчейкам</informationRegisters>
 </mdclass:Configuration>
