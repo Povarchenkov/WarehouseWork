@@ -89,6 +89,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2677dbff-9be7-4190-b173-45f678191e3d">
+    <name>ДопВозможности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. возможности</value>
+    </synonym>
+    <comment>Дополнительные возможности работы с ТСД</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="044e7623-0087-48d3-a4ff-366e0897516c">
     <name>ФормаЭлемента</name>
     <synonym>
