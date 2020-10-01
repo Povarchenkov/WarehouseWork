@@ -1573,6 +1573,7 @@
         <fileDragMode>AsFileRef</fileDragMode>
         <font xsi:type="core:FontRef">
           <font>Style.NormalTextFont</font>
+          <height>0.0</height>
         </font>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
