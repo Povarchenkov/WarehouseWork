@@ -64,6 +64,7 @@
   <constants>Constant.ОсновнойСклад</constants>
   <commonForms>CommonForm.ФормаПараметрыСоединения</commonForms>
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
+  <commonForms>CommonForm.ФормаКартинки</commonForms>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Упаковки</catalogs>
