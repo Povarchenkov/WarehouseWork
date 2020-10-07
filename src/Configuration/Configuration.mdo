@@ -71,9 +71,11 @@
   <catalogs>Catalog.Ячейки</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ОтборРазмещение</documents>
+  <documents>Document.ПересчетТоваров</documents>
   <enums>Enum.ТипыСкладскихЯчеек</enums>
   <enums>Enum.ВидыОперацийОтбораРазмещенияТоваров</enums>
   <enums>Enum.СтатусыОтборовРазмещенийТоваров</enums>
+  <enums>Enum.СтатусыПересчетовТоваров</enums>
   <dataProcessors>DataProcessor.РаботаСТСД</dataProcessors>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Сканирования</informationRegisters>

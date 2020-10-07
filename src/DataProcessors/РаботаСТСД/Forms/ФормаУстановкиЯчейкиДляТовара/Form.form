@@ -419,8 +419,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ИнфоПоОстаткам.Номенклатура</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ИнфоПоОстаткам.Номенклатура</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ИнфоНоменклатураНоменклатураРасширеннаяПодсказка</name>
