@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11697ec9-560f-47be-b3bf-5393ed9d174c">
+  <producedTypes>
+    <refType typeId="631b2661-0afc-4f2d-8e30-59750549d90c" valueTypeId="1405193c-898b-4880-b54d-aeea66d09eb2"/>
+    <listType typeId="b2aa1e80-24c3-4012-aec8-acbb303e973b" valueTypeId="830d7d93-327c-4cb9-b757-43e40358075c"/>
+    <managerType typeId="042ecf03-cea3-4527-91e8-cc9862984744" valueTypeId="222df6bb-5f84-4722-baea-5a4cbbd2738c"/>
+  </producedTypes>
+  <name>СтатусыРаботыСЯчейками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы работы с ячейками</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="38fe17d5-c64f-4b46-87c4-6f73cfb625f7">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b80e16c5-46b9-4718-a2c4-c53149b4580f">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

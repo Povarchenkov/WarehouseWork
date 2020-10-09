@@ -24,4 +24,6 @@
   <content>CommonCommand.УдалитьСтарыеДанные</content>
   <content>Document.ПересчетТоваров</content>
   <content>Enum.СтатусыПересчетовТоваров</content>
+  <content>InformationRegister.РаботаСЯчейками</content>
+  <content>Enum.СтатусыРаботыСЯчейками</content>
 </mdclass:Subsystem>

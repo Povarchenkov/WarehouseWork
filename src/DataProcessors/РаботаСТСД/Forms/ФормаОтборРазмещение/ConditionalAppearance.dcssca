@@ -3,6 +3,81 @@
 	<item>
 		<selection>
 			<item>
+				<field>ТоварыОтбор</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.Количество</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:Field">Объект.ТоварыОтбор.КоличествоОтобрано</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.Количество</left>
+				<comparisonType>NotEqual</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:AccentColor</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ТоварыОтбор</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.Количество</left>
+				<comparisonType>Less</comparisonType>
+				<right xsi:type="dcscor:Field">Объект.ТоварыОтбор.КоличествоОтобрано</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.КоличествоОтобрано</left>
+				<comparisonType>NotEqual</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:ImportantColor</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ТоварыОтбор</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.Количество</left>
+				<comparisonType>Greater</comparisonType>
+				<right xsi:type="dcscor:Field">Объект.ТоварыОтбор.КоличествоОтобрано</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.КоличествоОтобрано</left>
+				<comparisonType>NotEqual</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:NavigationColor</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
 				<field>ТоварыРазмещение</field>
 			</item>
 		</selection>
@@ -11,6 +86,11 @@
 				<left xsi:type="dcscor:Field">Объект.ТоварыРазмещение.Количество</left>
 				<comparisonType>Equal</comparisonType>
 				<right xsi:type="dcscor:Field">Объект.ТоварыРазмещение.КоличествоРазмещено</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыРазмещение.Количество</left>
+				<comparisonType>NotEqual</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
 			</item>
 		</filter>
 		<appearance>
@@ -32,31 +112,41 @@
 				<comparisonType>Less</comparisonType>
 				<right xsi:type="dcscor:Field">Объект.ТоварыРазмещение.КоличествоРазмещено</right>
 			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыРазмещение.КоличествоРазмещено</left>
+				<comparisonType>NotEqual</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
+			</item>
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:ImportantColor</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
 	<item>
 		<selection>
 			<item>
-				<field>ТоварыОтбор</field>
+				<field>ТоварыРазмещение</field>
 			</item>
 		</selection>
 		<filter>
 			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.Количество</left>
-				<comparisonType>Equal</comparisonType>
-				<right xsi:type="dcscor:Field">Объект.ТоварыОтбор.КоличествоОтобрано</right>
+				<left xsi:type="dcscor:Field">Объект.ТоварыРазмещение.Количество</left>
+				<comparisonType>Greater</comparisonType>
+				<right xsi:type="dcscor:Field">Объект.ТоварыРазмещение.КоличествоРазмещено</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ТоварыОтбор.КоличествоОтобрано</left>
+				<comparisonType>NotEqual</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
 			</item>
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">style:AccentColor</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">style:NavigationColor</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
