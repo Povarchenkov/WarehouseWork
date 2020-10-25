@@ -74,4 +74,40 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="b4c5c70a-304f-402c-974a-34438a66e088">
+    <name>ФормаОтборРазмещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбор размещение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ff6526f4-0799-40a0-93ff-1bb996cc13ff">
+    <name>ФормаЕдиничнойЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма единичной задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79351196-c507-4935-a1ed-46eb874aca27">
+    <name>ФормаПересчетТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма пересчет товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="32a448e0-ff12-41df-87a7-3fea88f6eefd">
+    <name>ФормаВыбораЯчейкиПересчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбора ячейки для пересчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

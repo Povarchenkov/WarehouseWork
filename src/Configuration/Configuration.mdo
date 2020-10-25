@@ -50,6 +50,7 @@
   </languages>
   <subsystems>Subsystem.Склад</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.НетИзображения</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <commonTemplates>CommonTemplate.ComponentBroadcasts</commonTemplates>
   <commonModules>CommonModule.ОбменДаннымиКлиентСервер</commonModules>
@@ -71,10 +72,14 @@
   <catalogs>Catalog.Ячейки</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ОтборРазмещение</documents>
+  <documents>Document.ПересчетТоваров</documents>
   <enums>Enum.ТипыСкладскихЯчеек</enums>
   <enums>Enum.ВидыОперацийОтбораРазмещенияТоваров</enums>
   <enums>Enum.СтатусыОтборовРазмещенийТоваров</enums>
+  <enums>Enum.СтатусыПересчетовТоваров</enums>
+  <enums>Enum.СтатусыРаботыСЯчейками</enums>
   <dataProcessors>DataProcessor.РаботаСТСД</dataProcessors>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Сканирования</informationRegisters>
+  <informationRegisters>InformationRegister.РаботаСЯчейками</informationRegisters>
 </mdclass:Configuration>

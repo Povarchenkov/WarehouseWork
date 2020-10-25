@@ -22,5 +22,8 @@
   <content>Constant.ОсновнойСклад</content>
   <content>InformationRegister.Сканирования</content>
   <content>CommonCommand.УдалитьСтарыеДанные</content>
-  <content>f423cfb4-1b5f-4952-9480-884bf3ec66c7</content>
+  <content>Document.ПересчетТоваров</content>
+  <content>Enum.СтатусыПересчетовТоваров</content>
+  <content>InformationRegister.РаботаСЯчейками</content>
+  <content>Enum.СтатусыРаботыСЯчейками</content>
 </mdclass:Subsystem>
