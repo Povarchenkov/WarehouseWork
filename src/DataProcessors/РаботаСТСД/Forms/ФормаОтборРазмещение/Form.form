@@ -1968,6 +1968,9 @@
         <extInfo xsi:type="form:PagesGroupExtInfo">
           <pagesRepresentation>TabsOnTop</pagesRepresentation>
           <currentRowUse>Auto</currentRowUse>
+          <associatedTableElementId xsi:type="core:StringValue">
+            <value>ТоварыРазмещение</value>
+          </associatedTableElementId>
         </extInfo>
       </items>
       <visible>true</visible>
