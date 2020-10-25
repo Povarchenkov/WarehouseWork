@@ -26,4 +26,7 @@
   <content>Enum.СтатусыПересчетовТоваров</content>
   <content>InformationRegister.РаботаСЯчейками</content>
   <content>Enum.СтатусыРаботыСЯчейками</content>
+  <content>CommonCommand.СканированиеКамерой</content>
+  <content>Catalog.СФ_НаправленияРазмещенияТоваров</content>
+  <content>Catalog.ФизическиеЛица</content>
 </mdclass:Subsystem>

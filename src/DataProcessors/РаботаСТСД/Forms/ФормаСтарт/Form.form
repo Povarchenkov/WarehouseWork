@@ -108,7 +108,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Button">
-    <name>Сортировка</name>
+    <name>Остатки</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -116,7 +116,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>СортировкаРасширеннаяПодсказка</name>
+      <name>ОстаткиРасширеннаяПодсказка</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -240,7 +240,6 @@
   <items xsi:type="form:FormField">
     <name>Документ</name>
     <id>12</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -293,7 +292,6 @@
   <items xsi:type="form:Button">
     <name>ПеремещениеПоДокументу</name>
     <id>10</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -414,6 +412,39 @@
     </extendedTooltip>
     <type>UsualButton</type>
     <commandName>Form.Command.ПересчетЯчейки</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <height>2</height>
+    <autoMaxHeight>true</autoMaxHeight>
+    <horizontalStretch>true</horizontalStretch>
+    <placementArea>UserCmds</placementArea>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
+  <items xsi:type="form:Button">
+    <name>Сортировка</name>
+    <id>32</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СортировкаРасширеннаяПодсказка</name>
+      <id>33</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.Сортировка</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <height>2</height>
@@ -772,6 +803,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПересчетЯчейки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Сортировка</name>
+    <title>
+      <key>ru</key>
+      <value>Сортировка</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Сортировка</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Сортировка</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

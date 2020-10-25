@@ -51,6 +51,7 @@
   <subsystems>Subsystem.Склад</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <commonPictures>CommonPicture.НетИзображения</commonPictures>
+  <commonPictures>CommonPicture.Фотоаппарат</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <commonTemplates>CommonTemplate.ComponentBroadcasts</commonTemplates>
   <commonModules>CommonModule.ОбменДаннымиКлиентСервер</commonModules>
@@ -59,8 +60,10 @@
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.Штрихкодирование</commonModules>
   <exchangePlans>ExchangePlan.HTTPОбменСРабочейБазой</exchangePlans>
+  <functionalOptions>FunctionalOption.ИспользоватьСерииНоменклатуры</functionalOptions>
   <commonCommands>CommonCommand.ВыполнитьСинхронизацию</commonCommands>
   <commonCommands>CommonCommand.УдалитьСтарыеДанные</commonCommands>
+  <commonCommands>CommonCommand.СканированиеКамерой</commonCommands>
   <constants>Constant.ПараметрыСоединения</constants>
   <constants>Constant.ОсновнойСклад</constants>
   <commonForms>CommonForm.ФормаПараметрыСоединения</commonForms>
@@ -71,6 +74,8 @@
   <catalogs>Catalog.Упаковки</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СФ_НаправленияРазмещенияТоваров</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.ОтборРазмещение</documents>
   <documents>Document.ПересчетТоваров</documents>
   <enums>Enum.ТипыСкладскихЯчеек</enums>

@@ -10,4 +10,5 @@
   <content>CommonCommand.ВыполнитьСинхронизацию</content>
   <content>DataProcessor.РаботаСТСД</content>
   <content>Document.ПересчетТоваров</content>
+  <content>CommonCommand.СканированиеКамерой</content>
 </mdclass:Subsystem>

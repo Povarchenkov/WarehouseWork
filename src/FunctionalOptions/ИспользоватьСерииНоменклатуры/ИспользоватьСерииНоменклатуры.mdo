@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57dedd45-2d87-4ea3-bde0-44cb20690847">
+  <name>ИспользоватьСерииНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать серии номенклатуры</value>
+  </synonym>
+  <location>Catalog.Склады.Attribute.ИспользоватьСерииНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПересчетТоваров.TabularSection.Товары.Attribute.ГоденДо</content>
+</mdclass:FunctionalOption>
