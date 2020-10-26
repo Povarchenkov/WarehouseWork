@@ -1775,6 +1775,58 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
+          <name>ЯчейкиРазмещения</name>
+          <id>193</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ЯчейкиРазмещения</segments>
+            </paths>
+          </dataPath>
+          <extendedTooltip>
+            <name>ЯчейкиРазмещенияРасширеннаяПодсказка</name>
+            <id>195</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ЯчейкиРазмещенияКонтекстноеМеню</name>
+            <id>194</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>Ячейка</name>
           <id>14</id>
           <visible>true</visible>
@@ -1788,6 +1840,10 @@
             </paths>
           </dataPath>
           <titleLocation>Top</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ЯчейкаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ЯчейкаРасширеннаяПодсказка</name>
             <id>16</id>
@@ -2535,9 +2591,27 @@
     </edit>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
-        <types>CatalogRef.Упаковки</types>
+        <types>CatalogRef.Ячейки</types>
       </itemValueType>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ЯчейкиРазмещения</name>
+    <title>
+      <key>ru</key>
+      <value>Ячейки размещения</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ПоказатьДетали</name>
